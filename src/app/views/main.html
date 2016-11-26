@@ -1,0 +1,16 @@
+<section layout="row" flex>
+
+    <md-sidenav class="md-sidenav-left left-bar md-whiteframe-10dp" md-is-locked-open="true">
+        <div class="logo" ui-sref="main.home">
+            <img src="assets/images/logo.png">
+            <span>manager</span>
+        </div>
+        <nav>
+            <a ui-sref="main.home" ui-sref-active="active">Home</a>
+            <a ui-sref="main.finance" ui-sref-active="active">Finance</a>
+        </nav>
+    </md-sidenav>
+
+    <ui-view class="content"></ui-view>
+
+</section>

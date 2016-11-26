@@ -1,0 +1,19 @@
+@mixin vertical-scroll(){
+  overflow-y: scroll;
+  &::-webkit-scrollbar { width: 0; }
+  -ms-overflow-style: none;
+  overflow: -moz-scrollbars-none;
+}
+
+@mixin placeholder() {
+  &::-webkit-input-placeholder {@content;}
+  &::-moz-placeholder          {@content;}/* Firefox 19+ */
+  &:-moz-placeholder           {@content;}/* Firefox 18- */
+  &:-ms-input-placeholder      {@content;}
+}
+
+@mixin crop-text() {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}

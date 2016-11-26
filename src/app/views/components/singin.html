@@ -1,0 +1,16 @@
+<div class="login-form" onsubmit="" novalidate ng-submit="vm.auth()">
+    <form name="loginForm">
+        <md-input-container>
+            <input ng-model="vm.email" type="email" placeholder="Email" required>
+        </md-input-container>
+        <md-input-container>
+            <input ng-model="vm.password" type="password" placeholder="Password" required>
+        </md-input-container>
+        <div class="md-button-group">
+            <md-button class="md-raised" type="submit">Sign in</md-button>
+            <md-button class="md-raised md-primary" ui-sref="main.register">Sign up</md-button>
+        </div>
+    </form>
+</div>
+{{vm.message}}
+{{vm.error}}

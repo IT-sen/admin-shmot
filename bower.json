@@ -1,0 +1,27 @@
+{
+  "name": "shmot-admin",
+  "description": "",
+  "main": "gulpfile.js",
+  "authors": [
+    "Ievgenii Sen"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "angular-cookies": "^1.5.8",
+    "angular-material": "^1.1.1",
+    "angular-ui-router": "^0.3.2",
+    "angular-animate": "^1.5.8"
+  },
+  "dependencies": {
+    "firebase": "^3.6.1",
+    "angularfire": "^2.1.0"
+  }
+}

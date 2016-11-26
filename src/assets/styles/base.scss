@@ -1,0 +1,21 @@
+*{
+  box-sizing: border-box;
+  &:focus{
+    outline: none;
+  }
+}
+
+body{
+  font-size: 14px;
+  width: 100%;
+  overflow: hidden;
+}
+
+a{
+  text-decoration: none;
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+}
